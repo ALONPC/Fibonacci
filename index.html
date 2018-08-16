@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>F I B O N A C C I</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+	
+	<div>
+		<h1>F I B O N A C C I</h1>
+
+		<input id="range" class="center-block" type="number" name="">
+		<br>
+		<input id="fibonacci" value="" disabled />
+	</div>
+
+	<script src="fibonacci.js"></script>
+	<script>
+
+		var value = $("#range").val();
+		$("#range").bind('keyup mouseup', function(){
+			// alert(this.value);
+			var sequence = Fibonacci(this.value);
+			$("#fibonacci").val(sequence);
+		});
+	</script>
+</body>
+</html>

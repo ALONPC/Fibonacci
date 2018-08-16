@@ -1,0 +1,31 @@
+html, body {
+	font-family: Times New Roman, Sans-Serif;
+	background: url(assets/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+h1 {
+	text-align: center;
+	color: ivory;
+}
+
+#range, #fibonacci {
+	text-align: center;
+}
+
+#range{
+	width: 4em;
+	height: 3em;
+}
+
+#fibonacci {
+	overflow: auto;
+	width: 100%;
+}
+
+.center-block {
+  margin: auto;
+  display: block;
+}
